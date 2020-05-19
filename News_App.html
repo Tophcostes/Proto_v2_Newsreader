@@ -3,40 +3,75 @@
 <title>News App</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="semantic.min.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="semantic.min.css">
 
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 </style>
 <body>
-  <div class="ui text container">
+  <div class="ui two column centered grid">
     <!-- Header -->
+<div class="column">
+  <h1>
 
-    <header style="padding:120px 1px">
-<h1>
-      <div class="container-fluid">
         Find What Matters and What Doesn't
-      </div>
 
-</h1>
-  </div>
+  </h1>
+    <!-- <header style="padding:120px 1px"> -->
 
-  <h4>
-<div class="container-fluid">
+      <h4>
 
-        Using the options below you can toggle different ways to see the news today.
-        </h4>
-        <br>
-        <br>
+          Using the options below you can toggle different ways to see the news today.
 
-        <h6>
-          <button  id="featured_content" class="ui button userButton" type="button" >Featured Content</button>
-          <button  id="recent_content" class="ui button userButton" type="button" >Recent Content</button>
-          <button  id="Aligned Content" class="ui button userButton" type="button" >Aligned Content</button>
-          <button  id="Misaligned Content" class="ui button userButton" type="button" >Misaligned Content</button>
-        </h6>
-      </div>
+      </h4>
+    </div>
+        </div>
+
+  <!-- <select name="Recent News" class="ui dropdown" id="select">
+    <option value="">Recent news</option>
+    <option value="male">Featured News</option>
+    <option value="female">Aligned News</option>
+      <option value="female">Misaligned News</option>
+  </select> -->
+
+    <br>
+    <br>
+
+<br>
+
+<div class="four ui buttons">
+
+        <button  id="Featured_content" class="ui button" type="button" >Featured Content</button>
+
+        <button  id="Recent_content" class="ui button" type="button" >Recent Content</button>
+
+        <button  id="Aligned Content" class="ui button" type="button" >Aligned Content</button>
+
+        <button  id="Misaligned Content" class="ui button" type="button" >Misaligned Content</button>
+
+    </div>
+
+
+    <!-- <br>
+      <div class="container">
+        <div class="ui four column centered grid">
+          <div class="column">
+            <button  id="Featured_content" class="ui button" type="button" >Featured Content</button>
+          </div>
+          <div class="column">
+            <button  id="Recent_content" class="ui button" type="button" >Recent Content</button>
+            </div>
+            <div class="column">
+            <button  id="Aligned Content" class="ui button" type="button" >Aligned Content</button>
+            </div>
+            <div class="column">
+            <button  id="Misaligned Content" class="ui button" type="button" >Misaligned Content</button>
+          </div>
+        </div>
+        </div> -->
+
+
 
 
       <div class="container">
@@ -47,124 +82,281 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
                       News
                     </h1>
                     <p class="text-secondary fs-15">
-                      This text can be added in the category Description field in
-                      dashboard
+                      This would show all the latest news
+                    </p>
+                    <br>
+                  </div>
+                </div>
+              </div>
+                </div>
+                  <div class="container">
+              <div class="ui stackable three column grid">
+                <div class="row">
+                  <div class="column">
+                    <img
+                    src="Placeholder.png"
+                    />
+                     <!-- <span class="thumb-title">News</span> -->
+
+                    <h5 class="font-weight-600 mt-3">
+                      Space materialism objects science
+                    </h5>
+                    <p class="fs-15 font-weight-normal">
+                      Space materialism objects science experience time ufo philosophical physics.
                     </p>
                   </div>
-                  <h5 class="text-muted font-weight-medium mb-3">World News</h5>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-lg-6  mb-5 mb-sm-2">
-                  <div class="position-relative image-hover">
+
+                  <div class="column">
                     <img
-                      src="../assets/images/business/Business_1.jpg"
-                      class="img-fluid"
-                      alt="Picture from news"
+                    src="Placeholder.png"
+                    class="img-fluid"
+                    alt="Picture from news"
                     />
-                    <span class="thumb-title">News</span>
+                    <!-- <span class="thumb-title">News</span> -->
+
+                    <h5 class="font-weight-600 mt-3">
+                      Space materialism objects science
+                    </h5>
+                    <p class="fs-15 font-weight-normal">
+                      Space materialism objects science experience time ufo philosophical physics
+                    </p>
                   </div>
-                  <h1 class="font-weight-600 mt-3">
-                    Space materialism objects science
-                  </h1>
-                  <p class="fs-15 font-weight-normal">
-                    Space materialism objects science experience time ufo philosophical physics.
-                  </p>
-                </div>
-                <div class="col-lg-6  mb-5 mb-sm-2">
-                  <div class="row">
-                    <div class="col-sm-6  mb-5 mb-sm-2">
-                      <div class="position-relative image-hover">
-                        <img
-                          src="john-mccann-bm15OYOm-Gc-unsplash.jpg"
-                          class="img-fluid"
-                          alt="Picture from news"
-                        />
-                        <span class="thumb-title">News</span>
-                      </div>
-                      <h5 class="font-weight-600 mt-3">
-                        Space materialism objects science
-                      </h5>
-                      <p class="fs-15 font-weight-normal">
-                        Space materialism objects science experience time ufo philosophical physics
-                      </p>
-                    </div>
-                    <div class="col-sm-6  mb-5 mb-sm-2">
-                      <div class="position-relative image-hover">
-                        <img
-                          src="john-mccann-bm15OYOm-Gc-unsplash.jpg"
-                          class="img-fluid"
-                          alt="Picture from news"
-                        />
-                        <span class="thumb-title">News</span>
-                      </div>
-                      <h5 class="font-weight-600 mt-3">
-                        Space materialism objects science
-                      </h5>
-                      <p class="fs-15 font-weight-normal">
-                        Space materialism objects science experience time ufo philosophical physics
-                      </p>
-                    </div>
-                  </div>
-                  <div class="row mt-3">
-                    <div class="col-sm-6  mb-5 mb-sm-2">
-                      <div class="position-relative image-hover">
-                        <img
-                          src="john-mccann-bm15OYOm-Gc-unsplash.jpg"
-                          class="img-fluid"
-                          alt="Picture from news"
-                        />
-                        <span class="thumb-title">News</span>
-                      </div>
-                      <h5 class="font-weight-600 mt-3">
-                        Space materialism objects science
-                      </h5>
-                      <p class="fs-15 font-weight-normal">
-                        Space materialism objects science experience time ufo philosophical physics
-                      </p>
-                    </div>
-                    <div class="col-sm-6">
-                      <div class="position-relative image-hover">
-                        <img
-                          src="john-mccann-bm15OYOm-Gc-unsplash.jpg"
-                          class="img-fluid"
-                          alt="Picture from news"
-                        />
-                        <span class="thumb-title">News</span>
-                      </div>
-                      <h5 class="font-weight-600 mt-3">
-                        Space materialism objects science
-                      </h5>
-                      <p class="fs-15 font-weight-normal">
-                        Space materialism objects science experience time ufo philosophical physics
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-    <div class="row mt-5">
-      <div class="col-sm-12">
-        <h5 class="text-muted font-weight-medium mb-3">Popular News</h5>
-      </div>
-    </div>
-              <div class="row mb-4">
-                <div class="col-sm-3  mb-5 mb-sm-2">
-                  <div class="position-relative image-hover">
+                  <div class="column">
                     <img
-                      src="john-mccann-bm15OYOm-Gc-unsplash.jpg"
-                      class="img-fluid"
-                      alt="Picture from news"
+                    src="Placeholder.png"
+                    class="img-fluid"
+                    alt="Picture from news"
                     />
-                    <span class="thumb-title">News</span>
+                    <!-- <span class="thumb-title">News</span> -->
+
+                    <h5 class="font-weight-600 mt-3">
+                      Space materialism objects science
+                    </h5>
+                    <p class="fs-15 font-weight-normal">
+                      Space materialism objects science experience time ufo philosophical physics
+                    </p>
                   </div>
-                  <h5 class="font-weight-600 mt-3">
-                    science experience time ufo philosophical physics
-                  </h5>
                 </div>
+                </div>
+                  </div>
 
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="container">
+          <div class="ui divided items">
+            <div class="item">
+              <div class="image">
+                <img src="Placeholder.png">
               </div>
+              <div class="content">
+                <a class="header">Space materialism objects science</a>
+                <div class="meta">
+                  <span>Space materialism objects science experience time ufo philosophical physics</span>
+                </div>
+                <div class="description">
+                  <p></p>
+                </div>
+                <div class="extra">
+                  Space materialism objects science
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="image">
+                <img src="Placeholder.png">
+              </div>
+              <div class="content">
+                <a class="header">Space materialism objects science</a>
+                <div class="meta">
+                  <span>Space materialism objects science experience time ufo philosophical physics</span>
+                </div>
+                <div class="description">
+                  <p></p>
+                </div>
+                <div class="extra">
+                  Space materialism objects science
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="image">
+                <img src="Placeholder.png">
+              </div>
+              <div class="content">
+                <a class="header">Space materialism objects science</a>
+                <div class="meta">
+                  <span>Space materialism objects science experience time ufo philosophical physics</span>
+                </div>
+                <div class="description">
+                  <p></p>
+                </div>
+                <div class="extra">
+                  Space materialism objects science
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="image">
+                <img src="Placeholder.png">
+              </div>
+              <div class="content">
+                <a class="header">Space materialism objects science</a>
+                <div class="meta">
+                  <span>Space materialism objects science experience time ufo philosophical physics</span>
+                </div>
+                <div class="description">
+                  <p></p>
+                </div>
+                <div class="extra">
+                  Space materialism objects science
+                </div>
+              </div>
+            </div>
 
+            <div class="item">
+              <div class="image">
+                <img src="Placeholder.png">
+              </div>
+              <div class="content">
+                <a class="header">Space materialism objects science</a>
+                <div class="meta">
+                  <span>Space materialism objects science experience time ufo philosophical physics</span>
+                </div>
+                <div class="description">
+                  <p></p>
+                </div>
+                <div class="extra">
+                  Space materialism objects science
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="image">
+                <img src="Placeholder.png">
+              </div>
+              <div class="content">
+                <a class="header">Space materialism objects science</a>
+                <div class="meta">
+                  <span>Space materialism objects science experience time ufo philosophical physics</span>
+                </div>
+                <div class="description">
+                  <p></p>
+                </div>
+                <div class="extra">
+                  Space materialism objects science
+                </div>
+              </div>
+            </div>
 
+            <div class="item">
+              <div class="image">
+                <img src="Placeholder.png">
+              </div>
+              <div class="content">
+                <a class="header">Space materialism objects science</a>
+                <div class="meta">
+                  <span>Space materialism objects science experience time ufo philosophical physics</span>
+                </div>
+                <div class="description">
+                  <p></p>
+                </div>
+                <div class="extra">
+                  Space materialism objects science
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="image">
+                <img src="Placeholder.png">
+              </div>
+              <div class="content">
+                <a class="header">Space materialism objects science</a>
+                <div class="meta">
+                  <span>Space materialism objects science experience time ufo philosophical physics</span>
+                </div>
+                <div class="description">
+                  <p></p>
+                </div>
+                <div class="extra">
+                  Space materialism objects science
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="image">
+                <img src="Placeholder.png">
+              </div>
+              <div class="content">
+                <a class="header">Space materialism objects science</a>
+                <div class="meta">
+                  <span>Space materialism objects science experience time ufo philosophical physics</span>
+                </div>
+                <div class="description">
+                  <p></p>
+                </div>
+                <div class="extra">
+                  Space materialism objects science
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="image">
+                <img src="Placeholder.png">
+              </div>
+              <div class="content">
+                <a class="header">Space materialism objects science</a>
+                <div class="meta">
+                  <span>Space materialism objects science experience time ufo philosophical physics</span>
+                </div>
+                <div class="description">
+                  <p></p>
+                </div>
+                <div class="extra">
+                  Space materialism objects science
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="image">
+                <img src="Placeholder.png">
+              </div>
+              <div class="content">
+                <a class="header">Space materialism objects science</a>
+                <div class="meta">
+                  <span>Space materialism objects science experience time ufo philosophical physics</span>
+                </div>
+                <div class="description">
+                  <p></p>
+                </div>
+                <div class="extra">
+                  Space materialism objects science
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="image">
+                <img src="Placeholder.png">
+              </div>
+              <div class="content">
+                <a class="header">Space materialism objects science</a>
+                <div class="meta">
+                  <span>Space materialism objects science experience time ufo philosophical physics</span>
+                </div>
+                <div class="description">
+                  <p></p>
+                </div>
+                <div class="extra">
+                  Space materialism objects science
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
 
 
@@ -181,7 +373,7 @@ if(visit) {
 localStorage.setItem ("visit", visit );
 
 
-$( "#featured_content" ).hover(
+$( "#Featured_content" ).hover(
   function() {
     $( "#hint" ).html( "what is the least amount of time it would take?" );
   }, function() {
@@ -206,6 +398,43 @@ function changeVisits(){
 
 }
 
+$('.ui.dropdown')
+  .dropdown(toggle)
+;
+
+
+$('.demo.items .image img')
+  .visibility({
+    type       : 'image',
+    transition : 'fade in',
+    duration   : 1000
+  })
+;
+
+
+function getNews(){
+  var url = 'http://newsapi.org/v2/top-headlines?' +
+          'country=us&' +
+          'apiKey=2dcbb3357f1345268ed3933827ca73bf';
+var req = new Request(url);
+fetch(req)
+    .then(function(response) {
+        console.log(response.json());
+    })
+  };
+
+  $('.container')
+    .visibility({
+      once: false,
+      // update size when new content loads
+      observeChanges: true,
+      // load content on bottom edge visible
+      onBottomVisible: function() {
+        // loads a max of 5 times
+        window.loadFakeContent();
+      }
+    })
+  ;
 
 
 </script>
